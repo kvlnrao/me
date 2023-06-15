@@ -1,0 +1,72 @@
+body{
+    background-color: lightgrey;
+    padding:0;
+    margin:0;
+}
+#widgetContainer{
+    width:100%;
+    margin:0px;
+    border: 1px solid red;
+    padding:auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    box-sizing:border-box ;
+}
+#info{
+    width:40%;
+    margin:0px;
+    border: 1px solid red;
+    box-sizing:border-box ;
+    float:left;
+}
+#widget0{
+    border:0px solid grey;
+    border-radius:5px;
+    background-color: rgb(245, 236, 226);
+    /*float:left;*/
+    height:150px;
+    width:14%;
+    margin:5px;
+    /*display: inline-block;*/
+}
+.widget{
+    border:0px solid grey;
+    border-radius:5px;
+    background-color: rgb(245, 236, 226);
+    /*float:left;*/
+    height:150px;
+    width:auto;
+    margin:5px;
+    /*display: inline-block;*/
+}
+.widgetLabel{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.widgetInfo{
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+.widgetImage{
+    border:1px solid black;
+    box-sizing:border-box;
+    padding:auto;
+    justify-content: center;
+}
+.widgetImageDiv{
+    max-width:100%;
+    margin:auto;
+    height:120px;
+    border:5px solid red;
+    padding:5px;
+}
+.widgetImage img{
+    
+    height:120px;
+    object-fit:contain;
+}
+.widgetValue{
+    border:1px solid black;
+    box-sizing:border-box;
+}
